@@ -20,7 +20,6 @@ setup(name='tableshift',
                     'tableshift/datasets/icd9-codes.json'])],
       install_requires=[
           'numpy==1.23.5',
-          'ray==2.2',
           'torch',
           'torchvision',
           'scikit-learn',
